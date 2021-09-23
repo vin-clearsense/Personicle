@@ -152,3 +152,38 @@ As discussed above, a user’s Personicle is primarily populated using data from
 However, we would also benefit from collecting the raw sensor data from the devices, which are typically not available through data export mechanisms or API access. We need to develop applications for Android, iOS platforms, and various wearable platforms (such as WearOS, Garmin, Fitbit etc.) for collecting objective sensor data directly from the devices. These on device applications can communicate with the smart phone application for periodically transferring sensor data. This also provides us a channel for incorporating future sensors that communicate with smart devices using popular data transfer protocols such as Ant+ or Bluetooth. Such devices can be registered with the Personicle smart phone application and collect data when the devices are active.  
 The smartphone application should collect data periodically different sensors (on smart phone and other connected devices) and push it to a cloud-based system which acts as the integrated backend for the Personicle.  
 The high-level interactions between these applications are illustrated in the figure below.
+![Data Collection Workflow](https://user-images.githubusercontent.com/28337389/134455672-661ef84d-cc40-4462-a07e-3ca2e33376e6.png)
+
+#### SDOH + EXPOSOME SOURCES
+
+SDOH and Exposome data are dependent on the user’s location history and can be derived in the personicle backend using the public sources discussed above.
+
+### DATA MANAGEMENT
+
+Personicle should manage observations, derived events and their attributes, other events, and attributes such that different stakeholders may access them and use event related attributes for their own applications.  It is expected that many applications may want to get data or even contribute data and algorithms to Personicle.  Data model, query environment, and long-term storage management abilities of Personicle should facilitate this.
+
+#### DATA MODEL
+
+Stream Features: Each data stream may be analyzed for specific application to detect features in it.  For example, heart rate has a numerical value at any time, but in specific applications, heart rate may be classified as very low, low, normal, high, and very high using a specific algorithm that may even consider the person and the heart rate and activity or context at the time.  For each stream, such features may be calculated, and the stream may be converted to such feature stream.  In some cases, the sensor or observer may directly give feature values over time. For all data streams, we may have feature streams calculated and the following attributes recorded:  
+1.	Name.
+2.	Derived-or-observed: If derived then observation stream.
+3.	Activity: <time interval, activity>
+
+### EVENT RECOGNITION AND RETRIEVAL
+
+#### DATA-DRIVEN EVENT RECOGNITION
+
+#### INTERACTIVE EVENT RECOGNITION
+
+### DATA SHARING PROTOCOLS
+
+Some stakeholders may want to explore and analyze Personicle from their application view and should be able to access only a limited subset of Personicle.  These applications may want to create an environment in which their private data may be combined with Personicle to offer them an environment very specific to their application.
+
+#### STAKEHOLDERS IN THE SYSTEM
+1.	Individual users
+2.	Healthcare Professionals
+    1.	Providers
+    2.	Insurance
+    3.	Employer
+
+3.	Application developers
