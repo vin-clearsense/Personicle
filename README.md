@@ -1,5 +1,5 @@
-# Personicle
-The Personal Chronicle aka "personicle"
+# The Personicle
+The Personal Chronicle aka "personicle" 
 
 
 ## Introduction
