@@ -1,6 +1,6 @@
 <img width="1378" alt="Screen Shot 2021-10-06 at 3 51 30 PM" src="https://user-images.githubusercontent.com/87823308/136273501-236670c3-3d61-4f06-927a-ff21c05d7fb3.png">
 
-##The Personal Chronicle aka "personicle" . The Personicle is a person centric healthcare data platform that registers Individual events of lifestyle, health, social, environmental, and other related events to provide highly personalized  & preventive health insights in real time.
+## The Personal Chronicle aka "personicle" . The Personicle is a person centric healthcare data platform that registers Individual events of lifestyle, health, social, environmental, and other related events to provide highly personalized  & preventive health insights in real time.
 
 ## Introduction
 
