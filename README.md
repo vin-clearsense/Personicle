@@ -191,4 +191,5 @@ Some stakeholders may want to explore and analyze Personicle from their applicat
 ## Our Product Roadmap
 <img width="1647" alt="Screen Shot 2021-10-06 at 3 56 21 PM" src="https://user-images.githubusercontent.com/87823308/136274193-70248671-9577-4a12-815b-6f9b9e62d6f3.png">
 
+## An Open Source Initiative , Sponsored by : ![clearsense-logo](https://user-images.githubusercontent.com/87823308/136274577-c41c4a72-7a79-425a-b977-ab7bacad1f5d.png)
 
