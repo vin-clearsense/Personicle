@@ -1,6 +1,6 @@
 # The Personicle
 The Personal Chronicle aka "personicle" . The Personicle is a person centric healthcare data platform that registers Individual events of lifestyle, health, social, environmental, and other related events to provide highly personalized  & preventive health insights in real time.
-<img width="779" alt="Screen Shot 2021-09-23 at 2 38 39 PM" src="https://user-images.githubusercontent.com/87823308/136272662-be40626f-4b18-4e3a-b388-77490d704490.png" align="center">
+<img width="779" alt="Screen Shot 2021-09-23 at 2 38 39 PM" src="https://user-images.githubusercontent.com/87823308/136272662-be40626f-4b18-4e3a-b388-77490d704490.png" align="centre">
 
 ## Introduction
 
