@@ -120,7 +120,8 @@ These are typically available in form of GIS layers and can be easily incorporat
 
 Food consumption for an individual consists of both foods and drinks being consumed by individuals. These foods and drinks can be deconstructed into several compounds that either are harmful or beneficial to human health, such as cholesterol, antioxidants, carbonhydrates, etc. These features can be collected from user input on what they eat and drink daily. Several articles show the disease impact of these metrics on humans.
 
-|Data|Source|
+Some articles regarding the effect of food compounds on human:
+|Resources|Source|
 |----|------|
 |LDL-C level and atherosclerotic cardiovascular disease article|https://academic.oup.com/eurheartj/article/38/32/2459/3745109?login=true |
 |Adult Obesity Causes & Consequences|https://www.cdc.gov/obesity/adult/causes.html |
@@ -143,8 +144,12 @@ Environmental noise can cause a range of health problems from stress, poor conce
 |Data|Source|
 |---|---|
 |Interractive Noise Map (US only)|https://maps.dot.gov/BTS/NationalTransportationNoiseMap/ |
+
+Some articles regarding the effect of noise on human:
+|Resources|Source|
+|---|---|
 |Noise and sleep disorders|https://www.sciencedirect.com/science/article/pii/S0013935114000371?via%3Dihub |
-|traffic noise on the prevalence of cardiovascular diseases|https://www.sciencedirect.com/science/article/pii/S0048969719344687?via%3Dihub |
+|Traffic noise on the prevalence of cardiovascular diseases|https://www.sciencedirect.com/science/article/pii/S0048969719344687?via%3Dihub |
 
 
 ### SYSTEM ARCHITECTURE
