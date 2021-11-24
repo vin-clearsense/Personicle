@@ -228,6 +228,7 @@ The initial prototype will cover following data connectors
 2) Apple health
 3) Google Fit
 4) Amazon Halo
+Potential Inclusion is : https://www.withings.com/us/en/
 
 ![clearsense-logo](https://user-images.githubusercontent.com/87823308/136274577-c41c4a72-7a79-425a-b977-ab7bacad1f5d.png)
 
