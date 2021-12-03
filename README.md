@@ -230,5 +230,10 @@ The initial prototype will cover following data connectors
 4) Amazon Halo
 Potential Inclusion is : https://www.withings.com/us/en/
 
+Ongoing development efforts can be viewed in the following repositories:
+1) [Events edge architecture](https://github.com/jamesptran/Personicle2.0_Kafka)
+2) [External Service Connections](https://github.com/vaibhap1/external-connections-personicle)
+3) [Web application Front end](https://github.com/vin-clearsense/frontend-personicle)
+
 ![clearsense-logo](https://user-images.githubusercontent.com/87823308/136274577-c41c4a72-7a79-425a-b977-ab7bacad1f5d.png)
 
