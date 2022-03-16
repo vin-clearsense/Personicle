@@ -40,6 +40,6 @@ Client registration API for access to personicle data.
       ```
     - Response Example:
       ```
-                  {"token_type":"Bearer","expires_in":3600,"access_token":"Your access token","scope":"dataapi"}
+        {"token_type":"Bearer","expires_in":3600,"access_token":"Your access token","scope":"dataapi"}
       ```
 - **Make request to personicle api with access token as Authorization header**
