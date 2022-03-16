@@ -5,7 +5,7 @@ Client registration API for access to personicle data.
 **Register your application**
 
 Request Example: 
-- ```curl -v -X POST -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" -d '{
+``` curl -v -X POST -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" -d '{
   "client_name": "Your application name",
   "client_uri": "Your application uri",
   "application_type": "service",
