@@ -1,1 +1,0 @@
-## Client Registration to Personicle
