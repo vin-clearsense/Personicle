@@ -25,9 +25,11 @@ Client registration API for access to personicle data.
       {"client_id":"your_client_id","client_id":"your_client_secret","client_id_issued_at":1647470465,"client_secret_expires_at":0,"client_name":" Your application name ","client_uri":"your application uri","logo_uri":null,"redirect_uris":[],"response_types":["token"],"grant_types":["client_credentials"],"token_endpoint_auth_method":"client_secret_basic","application_type":"service"}
       ```
 - **Encode your clientId and clientSecret to base64 encoded string**
-   - Run the following command replacing ```clientId``` and ```clientSecret``` with your clientId and clientSecret:
-   ``` echo -n clientId:clientSecret | base64 ```
-   - Include the returned string as Authorization header in the next step
+   - Example for conversion for macOS/Linux
+     - Run the following command replacing ```clientId``` and ```clientSecret``` with your clientId and clientSecret:
+
+     ``` echo -n clientId:clientSecret | base64 ```
+     - Include the returned string as Authorization header in the next step
    
 - **Obtain access token**
     - Request Example:
