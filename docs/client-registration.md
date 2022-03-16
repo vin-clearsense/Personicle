@@ -26,10 +26,9 @@ Client registration API for access to personicle data.
       ```
 - **Encode your clientId and clientSecret to base64 encoded string**
    - Example for conversion for macOS/Linux
-     - Run the following command replacing ```clientId``` and ```clientSecret``` with your clientId and clientSecret:
-
-     ``` echo -n clientId:clientSecret | base64 ```
-     - Include the returned string as Authorization header in the next step
+      - Run the following command replacing ```clientId``` and ```clientSecret``` with your clientId and clientSecret:
+         ``` echo -n clientId:clientSecret | base64 ```
+      - Include the returned string as Authorization header in the next step
    
 - **Obtain access token**
     - Request Example:
