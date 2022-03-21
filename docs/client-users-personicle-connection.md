@@ -30,6 +30,4 @@ Allow users of client application to connect their personicle
           ```
 - **Call Personicle api with user id retrieved from previous step**
    - 
-   
-- **Obtain access token**
-    - 
+
