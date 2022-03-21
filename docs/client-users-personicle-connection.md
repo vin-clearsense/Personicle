@@ -17,6 +17,7 @@ Allow users of client application to connect their personicle
           ```
 
       - Response Example (If successful login): 
+      
             ```
                {"expiresAt":"2022-03-21T23:38:29.000Z","status":"SUCCESS","sessionToken":"20111hWiRn5z.....fw-hcL7OTja","_embedded":
                {"user":{"id":"00u3s...7","passwordChanged":"2022-02-03T17:38:23.000Z","profile": {"login":
