@@ -6,47 +6,47 @@ Client registration API for access to personicle data.
 
   - Request Example: 
       ``` 
-<!--       curl -v -X POST -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" -d '{
-        "client_name": "Your application name",
-        "client_uri": "Your application uri",
-        "application_type": "service",
-        "response_types": [
-           "token"
-        ],
-         "grant_types": [
-          "client_credentials"
-        ],
-        "token_endpoint_auth_method": "client_secret_basic"
-      }' "https://dev-01936861.okta.com/oauth2/v1/clients" -->
-      curl -v -X POST \
-        -H "Accept: application/json" \
-        -H "Content-Type: application/json" \
-        -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" \
-        -d '{
-          "client_name": "Example OAuth Client",
-          "client_uri": "https://www.example-application.com",
-          "logo_uri": "https://www.example-application.com/logo.png",
-          "application_type": "web",
-          "redirect_uris": [
-             "https://www.example-application.com/oauth2/redirectUri"
-          ],
-          "post_logout_redirect_uris": [
-            "https://www.example-application.com/oauth2/postLogoutRedirectUri"
-          ],
+  <!--       curl -v -X POST -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" -d '{
+          "client_name": "Your application name",
+          "client_uri": "Your application uri",
+          "application_type": "service",
           "response_types": [
-            "token",
-             "code",
-             "id_token"
+             "token"
           ],
-          "grant_types": [
-             "client_credentials",
-             "authorization_code",
-             "refresh_token",
-             "implicit"
+           "grant_types": [
+            "client_credentials"
           ],
-          "token_endpoint_auth_method": "client_secret_basic",
-          "initiate_login_uri": "https://www.example-application.com/oauth2/login"
-        }' "https://dev-01936861.okta.com/oauth2/v1/clients"
+          "token_endpoint_auth_method": "client_secret_basic"
+        }' "https://dev-01936861.okta.com/oauth2/v1/clients" -->
+        curl -v -X POST \
+          -H "Accept: application/json" \
+          -H "Content-Type: application/json" \
+          -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" \
+          -d '{
+            "client_name": "Example OAuth Client",
+            "client_uri": "https://www.example-application.com",
+            "logo_uri": "https://www.example-application.com/logo.png",
+            "application_type": "web",
+            "redirect_uris": [
+               "https://www.example-application.com/oauth2/redirectUri"
+            ],
+            "post_logout_redirect_uris": [
+              "https://www.example-application.com/oauth2/postLogoutRedirectUri"
+            ],
+            "response_types": [
+              "token",
+               "code",
+               "id_token"
+            ],
+            "grant_types": [
+               "client_credentials",
+               "authorization_code",
+               "refresh_token",
+               "implicit"
+            ],
+            "token_endpoint_auth_method": "client_secret_basic",
+            "initiate_login_uri": "https://www.example-application.com/oauth2/login"
+          }' "https://dev-01936861.okta.com/oauth2/v1/clients"
       ```
 
   - Response Example: 
