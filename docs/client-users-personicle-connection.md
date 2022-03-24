@@ -3,7 +3,7 @@
 
 Allow users of client application to connect their personicle
 
-- **Get personicle user id**
+- **Get personicle user access token**
     - Allow users to log in to their personicle account
       - Request Example: 
           ```
