@@ -16,17 +16,17 @@ Allow users of client application to connect their personicle
            Access token for the user will be present in the url. 
         ```
         
-        - Request Example for authorization grant flow:
-            ```
-            https://dev-01936861.okta.com/oauth2/default/v1/authorize?client_id=your_client_id&redirect_uri=your_redirect_uri&response_type=code&scope=openid+profile+email&state=anyRandomString&nonce=anyRandomString
-            ```
-         - Response Example (If successful login): 
-   
+    - Request Example for authorization grant flow:
         ```
-           Code will be returned in your redirect url. You'll need to exchange this code for access and id tokens. See below.
+        https://dev-01936861.okta.com/oauth2/default/v1/authorize?client_id=your_client_id&redirect_uri=your_redirect_uri&response_type=code&scope=openid+profile+email&state=anyRandomString&nonce=anyRandomString
         ```
+     - Response Example (If successful login): 
+
+    ```
+       Code will be returned in your redirect url. You'll need to exchange this code for access and id tokens. See below.
+    ```
         
-- **Get Access token *
+- **Get Access token**
     
     - Request Example:
         ```
