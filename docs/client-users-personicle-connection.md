@@ -7,7 +7,7 @@ Allow users of client application to connect their personicle
     - Allow users to log in to their personicle account
       - Request Example: 
           ```
-               https://dev-01936861.okta.com/oauth2/default/v1/authorize? client_id=your_client_id&redirect_uri=your_redirect_uri&response_type=token&scope=openid+profile+email&state=anyRandomString&nonce=anyRandomString
+               https://dev-01936861.okta.com/oauth2/default/v1/authorize?client_id=your_client_id&redirect_uri=your_redirect_uri&response_type=token&scope=openid+profile+email&state=anyRandomString&nonce=anyRandomString
           ```
 
       - Response Example (If successful login): 
