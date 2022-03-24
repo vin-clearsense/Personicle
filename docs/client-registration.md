@@ -45,18 +45,20 @@ Client registration API for access to personicle data.
 - **Assign users to your application**
     - Request Example:
       ```
-          curl -v -X PUT \
-    -H "Accept: application/json" \
-    -H "Content-Type: application/json" \
-    -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" \
-    -d '{
-    }' "https://dev-01936861.okta.com/api/v1/apps/{your_client_id}/groups/00g3sfiuiukeC6Mj75d7"
+      curl -v -X PUT \
+      -H "Accept: application/json" \
+      -H "Content-Type: application/json" \
+      -H "Authorization: SSWS 00yx92A2rwfRM-JCLookK04GgaNKNtVhNeD5-ONF8N" \
+      -d '{
+      }' "https://dev-01936861.okta.com/api/v1/apps/{your_client_id}/groups/00g3sfiuiukeC6Mj75d7"
       ```
       
    - Response Example:
       ```
-      {"id":"00g3sfiuiukeC6Mj75d7","lastUpdated":"2022-03-24T16:03:50.000Z","priority":0,"profile":{},"_links":{"app":{"href":"https://dev-01936861.okta.com/api/v1/apps/{your_client_id}"},"self":{"href":"https://dev-01936861.okta.com/api/v1/apps/{your_client_id}/groups/00g3sfiuiukeC6Mj75d7"},"group":{"href":"https://dev-01936861.okta.com/api/v1/groups/00g3sfiuiukeC6Mj75d7"}}}
+      {"id":"00g3sfiuiukeC6Mj75d7","lastUpdated":"2022-03-24T16:03:50.000Z","priority":0,"profile":{},"_links":{"app":{"href":"https://dev-   01936861.okta.com/api/v1/apps/{your_client_id}"},"self":{"href":"https://dev-01936861.okta.com/api/v1/apps/{your_client_id}/groups/00g3sfiuiukeC6Mj75d7"},"group":{"href":"https://dev-01936861.okta.com/api/v1/groups/00g3sfiuiukeC6Mj75d7"}}}
       ```
+      
+      
 <!-- - **Encode your clientId and clientSecret to base64 encoded string**
    - Example conversion for macOS/Linux
       - Run the following command replacing ```clientId``` and ```clientSecret``` with your clientId and clientSecret:
