@@ -26,7 +26,7 @@ Allow users of client application to connect their personicle
        Code will be returned in your redirect url. You'll need to exchange this code for access and id tokens. See below.
     ```
         
-- **Get Access token**
+- **Get Access token (For authorization code flow)**
     
     - Request Example:
         ```
