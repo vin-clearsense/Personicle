@@ -1,4 +1,4 @@
-
+<!-- 
 ## Client users personicle connection
 
 Allow users of client application to connect their personicle
@@ -57,3 +57,4 @@ Allow users of client application to connect their personicle
 - **Call Personicle api with user accesstoken and user id retrieved from previous step**
    - 
 
+ -->
