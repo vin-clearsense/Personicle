@@ -9,7 +9,8 @@
     ```
     - [List of all scopes](https://github.com/tirth-clearsense/Personicle/blob/client-registration-doc/docs/scopes.md)
     -  Access your application scopes [here](https://personicle-client-registration.herokuapp.com/get-scopes)
-    -  Include the scopes that you want to accees in the above url in scopes parameter. Example: ``` scope=openid+profile+email+com.personicle.individual.datastreams.heartrate+events.read ```. Scopes can be updated [here](https://personicle-client-registration.herokuapp.com/update-scopes).
+    -  Include the scopes that you want to accees in the above url in scopes parameter. Example: ``` scope=openid+profile+email+com.personicle.individual.datastreams.heartrate+events.read ```. 
+    -  Scopes can be updated [here](https://personicle-client-registration.herokuapp.com/update-scopes). **Note: ** This will override your current scopes.
     -  After successful sign in, the access token will be present in the redirect uri that was specified earlier.
     
  - **Make request to personicle for data access**
