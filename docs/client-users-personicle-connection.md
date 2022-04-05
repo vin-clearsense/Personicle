@@ -12,6 +12,10 @@
     -  After successful sign in, the access token will be present in the redirect uri that was specified earlier.
     
  - **Make request to personicle for data access**
+    - Events endpoint
+      - ``` https://https://20.121.8.101:3000/request/events ```
+      - Parameters: startTime, endTime, source (optional, example: google-fit), event_type(optional, example: sleep)
+      - Headers: Authorization: access token
 <!-- 
 ## Client users personicle connection
 
