@@ -1,6 +1,5 @@
 ## Personicle scopes
 
-```
 * com.personicle.individual.datastreams.heartrate
 * com.personicle.individual.datastreams.heartrate.write    
 -    com.personicle.individual.datastreams.heart_intensity_minutes
@@ -22,4 +21,4 @@
 -    com.personicle.individual.datastreams.blood_pressure.systolic
 -    com.personicle.individual.datastreams.blood_pressure.diastolic
 -    com.personicle.individual.datastreams.body_temperature
-```
+
