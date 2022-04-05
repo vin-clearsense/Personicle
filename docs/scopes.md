@@ -1,8 +1,8 @@
 ## Personicle scopes
 
 ```
-1.  com.personicle.individual.datastreams.heartrate
--    com.personicle.individual.datastreams.heartrate.write    
+* com.personicle.individual.datastreams.heartrate
+* com.personicle.individual.datastreams.heartrate.write    
 -    com.personicle.individual.datastreams.heart_intensity_minutes
 -    events.read
 -    com.personicle.individual.datastreams.step.cumulative
