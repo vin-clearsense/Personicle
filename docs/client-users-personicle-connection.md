@@ -14,7 +14,7 @@
     -  After successful sign in, the access token will be present in the redirect uri that was specified earlier.
     
  - **Make request to personicle for data access**
-    - Events endpoint
+    - **Events endpoint**
       - ``` https://20.232.224.55/api/data/read/events ```
       - Parameters: startTime, endTime, source (optional, example: google-fit), event_type(optional, example: sleep)
       - Headers: Authorization: access token
@@ -42,7 +42,7 @@
               "unique_event_id": "8821-12....c-b23h-00"
           }]    
           ```
-    - Datastreams endpoint
+    - **Datastreams endpoint**
       - ``` https://20.232.224.55/api/data/read/datastreams ```
       - Parameters: datatype (example: com.personicle.individual.datastreams.heartrate), startTime, endTime, source (optional, example: google-fit)
       - Headers: Authorization: access token
