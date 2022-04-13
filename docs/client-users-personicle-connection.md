@@ -15,12 +15,12 @@
     
  - **Make request to personicle for data access**
     - Events endpoint
-      - ``` https://20.121.8.101:3000/request/events ```
+      - ``` https://20.232.224.55/api/data/read/request/events ```
       - Parameters: startTime, endTime, source (optional, example: google-fit), event_type(optional, example: sleep)
       - Headers: Authorization: access token
       
     - Datastreams endpoint
-      - ``` https://20.121.8.101:3000/request ```
+      - ``` https://20.232.224.55/api/data/read/request ```
       - Parameters: datatype (example: com.personicle.individual.datastreams.heartrate), startTime, endTime, source (optional, example: google-fit)
       - Headers: Authorization: access token
 
