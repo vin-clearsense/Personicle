@@ -19,8 +19,8 @@
       - Parameters: startTime, endTime, source (optional, example: google-fit), event_type(optional, example: sleep)
       - Headers: Authorization: access token
     - Request example  
-      - 
-        ``` GET https://20.232.224.55/api/data/read/events?startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918 
+      - ```
+         GET https://20.232.224.55/api/data/read/events?startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918 
         ```
     - Response example
       - ```
@@ -47,7 +47,7 @@
       - Parameters: datatype (example: com.personicle.individual.datastreams.heartrate), startTime, endTime, source (optional, example: google-fit)
       - Headers: Authorization: access token
     - Request example
-      - 
-         ``` GET https://20.232.224.55/api/data/read/datastreams?datatype=com.personicle.individual.datastreams.heartrate&startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918        
+      - ```
+        GET https://20.232.224.55/api/data/read/datastreams?datatype=com.personicle.individual.datastreams.heartrate&startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918        
           ```
 
