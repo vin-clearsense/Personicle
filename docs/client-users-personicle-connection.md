@@ -15,9 +15,15 @@
     
  - **Make request to personicle for data access**
     - **Events endpoint**
+      - Allows access to individual events within the soecified time range
       - ``` https://20.232.224.55/api/data/read/events ```
-      - Parameters: startTime, endTime, source (optional, example: google-fit), event_type(optional, example: sleep)
-      - Headers: Authorization: access token
+      - Parameters: 
+        - startTime: timestamp for the beginning of the required time interval e.g. 2022-01-04 15:54:12.092754, 
+        - endTime: timestamp for the end of the required time interval e.g. 2022-01-08 15:54:12.092754, 
+        - source: desired data source (optional, example: google-fit), 
+        - event_type: desired event type(optional, example: sleep)
+      - Headers: 
+        - Authorization: Bearer <access token>
     - Request example  
       - ```
          GET https://20.232.224.55/api/data/read/events?startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918 
