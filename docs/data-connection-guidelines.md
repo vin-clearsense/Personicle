@@ -9,6 +9,10 @@ Three modules need to be implemented for adding an external service to personicl
 
 You can leverage the existing personicle infrastructure to run such applications. These modules can be implemented as functions in an Azure function app and utilize Azure storage queue for managing download requests.
 
+In addition to the above 3 modules, the open source developers would also need access to the SQLAlchemy model for managing user credentials (e.g., access token for the service being integrated), schema for the data and events to be sent, and event hub producers to send the data to personicle environment. These are included in the azure function app as shared resources.
+
 You can find examples of such applications in the following 2 repositories:
 1. Google fit download application [https://github.com/vaibhav-clearsense/data-download-apps]
-2. Oura ring download application
+2. Oura ring download application [https://github.com/vaibhav-clearsense/oura-download-app]
+
+
