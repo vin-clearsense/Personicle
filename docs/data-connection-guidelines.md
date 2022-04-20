@@ -16,6 +16,6 @@ You can find examples of such applications in the following 2 repositories:
   * data mapping: [Google fit data mapping](https://github.com/vaibhav-clearsense/data-download-apps/blob/7c6ba9a9a7c5d8a7f2c8c48553fcbd1b3060709d/utils/google_fit_data_mapping.py#L123)
   * personicle data types: [Personicle data dictionary](https://github.com/ClearsenseData/personicle-schema-validation/blob/main/data_dictionary/personicle_data_types.json)
   * data parsers: [Google fit event parser](https://github.com/vaibhav-clearsense/data-download-apps/blob/7c6ba9a9a7c5d8a7f2c8c48553fcbd1b3060709d/utils/google_fit_parsers.py#L11) , [Google fit data stream parser](https://github.com/vaibhav-clearsense/data-download-apps/blob/7c6ba9a9a7c5d8a7f2c8c48553fcbd1b3060709d/utils/google_fit_parsers.py#L34)
-3. Oura ring download application [https://github.com/vaibhav-clearsense/oura-download-app]
+2. Oura ring download application [https://github.com/vaibhav-clearsense/oura-download-app]
 
 
