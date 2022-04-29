@@ -16,7 +16,7 @@
  - **Make request to personicle for data access**
     - **Events endpoint**
       - Allows access to individual events within the soecified time range
-      - ``` https://staging.personicle.org/data/read/events ```
+      - ``` https://staging.personicle.org/data/read/request/events ```
       - Parameters: 
         - startTime: timestamp for the beginning of the required time interval e.g. 2022-01-04 15:54:12.092754, 
         - endTime: timestamp for the end of the required time interval e.g. 2022-01-08 15:54:12.092754, 
@@ -26,7 +26,7 @@
         - Authorization: Bearer `<access token>`
     - Request example  
       - ```
-         GET https://staging.personicle.org/data/read/events?startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918 
+         GET https://staging.personicle.org/data/read/request/events?startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918 
         ```
     - Response example
       - ```
@@ -49,11 +49,11 @@
           }]    
           ```
     - **Datastreams endpoint**
-      - ``` https://staging.personicle.org/data/read/datastreams ```
+      - ``` https://staging.personicle.org/data/read/request```
       - Parameters: datatype (example: com.personicle.individual.datastreams.heartrate), startTime, endTime, source (optional, example: google-fit)
       - Headers: Authorization: access token
     - Request example
       - ```
-        GET https://staging.personicle.org/data/read/datastreams?datatype=com.personicle.individual.datastreams.heartrate&startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918        
+        GET https://staging.personicle.org/data/read/request?datatype=com.personicle.individual.datastreams.heartrate&startTime=2022-01-04%2015:54:12.092754&endTime=2022-04-04%2010:54:12.092918        
           ```
 
